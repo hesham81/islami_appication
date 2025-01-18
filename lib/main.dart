@@ -28,7 +28,7 @@ class MyApp extends StatelessWidget {
           return const OnBoarding();
         },
         SuraDetails.routeName: (_) {
-          return const SuraDetails();
+          return SuraDetails();
         }
       },
     );

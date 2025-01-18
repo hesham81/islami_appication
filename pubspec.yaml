@@ -51,6 +51,8 @@ flutter:
     - assets/images/
     - assets/icons/
     - assets/
+    - assets/files/
+    - assets/files/Suras/
   # fonts:
   #   - family: Schyler
   #     fonts:

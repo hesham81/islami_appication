@@ -19,6 +19,13 @@ class AppAssets {
   static const String bearishBoarding = "assets/images/bearish.png";
   static const String radioBoarding = "assets/images/radio_boarding.png";
   static const String writtenIslami = "assets/images/written_header.png";
+  static const String suraDetailsBG = "assets/images/Soura Details Screen.png";
+  static const String suraDetailsRightShape =
+      "assets/images/right_sura_shape.png";
+  static const String suraDetailsLeftShape =
+      "assets/images/left_sura_shape.png";
+  static const String suraDetailsGroundShape =
+      "assets/images/ground_sura_shape.png";
 
   //icons
   static const String quranICN = 'assets/icons/quran.png';
