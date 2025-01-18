@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:islami/features/layout/quran/pages/quran_home.dart';
+import 'package:islami/features/on_boarding/on_boarding.dart';
 import 'package:islami/features/splash/page/splash.dart';
 
 void main() {
@@ -17,11 +18,14 @@ class MyApp extends StatelessWidget {
       initialRoute: Splash.routeName,
       routes: {
         Splash.routeName: (_) {
-          return Splash();
+          return const Splash();
         },
         QuranHome.routeName: (_) {
-          return QuranHome();
+          return const QuranHome();
         },
+        OnBoarding.routeName: (_) {
+          return const OnBoarding();
+        }
       },
     );
   }

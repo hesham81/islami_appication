@@ -1,7 +1,8 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
 import 'package:islami/core/constant/app_assets.dart';
-import 'package:islami/features/layout/quran/pages/quran_home.dart';
+
+import '../../on_boarding/on_boarding.dart';
 
 class Splash extends StatefulWidget {
   static const String routeName = "/splash";
@@ -18,7 +19,7 @@ class _SplashState extends State<Splash> {
   void initState() {
     super.initState();
     Future.delayed(Splash.duration, () {
-      Navigator.of(context).pushReplacementNamed(QuranHome.routeName);
+      Navigator.of(context).pushReplacementNamed(OnBoarding.routeName);
     });
   }
 

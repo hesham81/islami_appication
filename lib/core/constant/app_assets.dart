@@ -13,6 +13,12 @@ class AppAssets {
   static const String sebhaBG = 'assets/images/sebha_background.png';
   static const String timesBG = 'assets/images/times_background.png';
   static const String miniLogo = 'assets/images/islmai_logo.png';
+  static const String norhbBekomBoarding = "assets/images/norhb_bekom.png";
+  static const String welcomeToIslami = "assets/images/welcome_to_islami.png";
+  static const String quranBoarding = "assets/images/reading_quran.png";
+  static const String bearishBoarding = "assets/images/bearish.png";
+  static const String radioBoarding = "assets/images/radio_boarding.png";
+  static const String writtenIslami = "assets/images/written_header.png";
 
   //icons
   static const String quranICN = 'assets/icons/quran.png';
