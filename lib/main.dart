@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:islami/features/layout/quran/pages/quran_home.dart';
+import 'package:islami/features/layout/quran/pages/sura_details.dart';
 import 'package:islami/features/on_boarding/on_boarding.dart';
 import 'package:islami/features/splash/page/splash.dart';
 
@@ -25,6 +26,9 @@ class MyApp extends StatelessWidget {
         },
         OnBoarding.routeName: (_) {
           return const OnBoarding();
+        },
+        SuraDetails.routeName: (_) {
+          return const SuraDetails();
         }
       },
     );

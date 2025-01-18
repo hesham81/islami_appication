@@ -34,6 +34,7 @@ class _OnBoardingState extends State<OnBoarding> {
             ),
             Expanded(
               child: PageView.builder(
+                controller: controller,
                 onPageChanged: (index) {
                   currentIndex = index;
                   setState(() {});
@@ -85,12 +86,11 @@ class _OnBoardingState extends State<OnBoarding> {
                 TextButton(
                   style: TextButton.styleFrom(overlayColor: Colors.transparent),
                   onPressed: () {
+                    controller.nextPage(
+                        duration: Duration(milliseconds: 500),
+                        curve: Curves.easeInOut);
                     if (currentIndex <
                         OnBoardingModel.onBoardingList.length - 1) {
-                      controller.nextPage(
-                        duration: const Duration(milliseconds: 500),
-                        curve: Curves.easeInOut,
-                      );
                       currentIndex++;
                     } else {
                       Navigator.pushReplacementNamed(

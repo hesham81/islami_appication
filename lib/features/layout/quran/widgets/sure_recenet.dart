@@ -1,17 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:islami/core/constant/app_assets.dart';
 import 'package:islami/core/theme/app_colors.dart';
+import 'package:islami/models/sura_model.dart';
 
 class RecentSura extends StatelessWidget {
-  final String nameArabic;
-  final String nameEnglish;
-  final String versesNumber;
+  final SuraModel model;
 
   const RecentSura({
     super.key,
-    required this.nameArabic,
-    required this.nameEnglish,
-    required this.versesNumber,
+    required this.model,
   });
 
   @override
@@ -30,7 +27,7 @@ class RecentSura extends StatelessWidget {
               children: [
                 Expanded(
                   child: Text(
-                    nameEnglish,
+                    model.nameEn,
                     style: const TextStyle(
                       color: Colors.black,
                       fontSize: 24,
@@ -40,7 +37,7 @@ class RecentSura extends StatelessWidget {
                 ),
                 Expanded(
                   child: Text(
-                    nameArabic,
+                    model.nameAr,
                     style: const TextStyle(
                       color: Colors.black,
                       fontSize: 24,
@@ -50,7 +47,7 @@ class RecentSura extends StatelessWidget {
                 ),
                 Expanded(
                   child: Text(
-                    "${versesNumber} verse",
+                    "${model.versesNumber} verse",
                     style: const TextStyle(
                       color: Colors.black,
                       fontSize: 14,
