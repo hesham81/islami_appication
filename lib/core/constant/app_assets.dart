@@ -20,6 +20,9 @@ class AppAssets {
   static const String radioBoarding = "assets/images/radio_boarding.png";
   static const String writtenIslami = "assets/images/written_header.png";
   static const String suraDetailsBG = "assets/images/Soura Details Screen.png";
+  static const String radioBG = "assets/images/radio_background.png";
+  static const String hadithItemBackgroundObject =
+      "assets/images/hadith_item_background_object.png";
   static const String suraDetailsRightShape =
       "assets/images/right_sura_shape.png";
   static const String suraDetailsLeftShape =

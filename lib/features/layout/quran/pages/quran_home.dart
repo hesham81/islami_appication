@@ -19,12 +19,12 @@ class QuranHome extends StatefulWidget {
 
 class _QuranHomeState extends State<QuranHome> {
   int selectedIndex = 0;
-  var pages = const [
-    Quran(),
+  var pages = [
+    const Quran(),
     Hadeth(),
-    Sebha(),
-    Times(),
-    RadioScreen(),
+    const Sebha(),
+    const RadioScreen(),
+    const Times(),
   ];
 
   @override
